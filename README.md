@@ -1,0 +1,2 @@
+# magentoinit
+Magento Initiation
