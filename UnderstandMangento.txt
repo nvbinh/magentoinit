@@ -1,0 +1,21 @@
+1. Handler in Magento
+EX: customer.xml
+<customer_account_login translate="label">
+   
+</customer_account_login>
+
+we have a handler: customer_account_login
+equivalent to the path:
+App>Code>Core>Customer>Block>Account>Login
+equivalent to the url (customer account page):
+customer/account/login
+Module-Controller-Action
+
+2. Block Type
+<reference name="content">
+    <block type="customer/form_login" name="customer_form_login" template="customer/form/login.phtml" />
+</reference>
+
+EX: customer/form_login
+equivalent to 
+Customer>Block>Form>Login.php
